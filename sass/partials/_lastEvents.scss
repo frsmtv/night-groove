@@ -1,0 +1,12 @@
+#last-events {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  article.last-events {
+    width: 40%;
+    margin: 1%;
+    img {
+      width: 100%;
+    }
+  }
+}

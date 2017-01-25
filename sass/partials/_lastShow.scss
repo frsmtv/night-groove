@@ -1,0 +1,23 @@
+#last-show {
+  margin: 0;
+  width: 25%;
+  text-align: center;
+  img {
+    width: 350px;
+  }
+  h2 {
+    position: absolute;
+    padding: 1%;
+    background: #000;
+    top: 40px;
+    margin-left: 20%;
+    text-align: justify;
+    span {
+      font-size: .9rem;
+    }
+  }
+  a {
+    color: $sectionTitleColor;
+    letter-spacing: 2px;
+  }
+}

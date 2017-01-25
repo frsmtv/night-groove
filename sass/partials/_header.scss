@@ -1,0 +1,30 @@
+header {
+  background: #000;
+  color: $secondaryColor;
+
+  nav {
+    ul {
+      margin: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      letter-spacing: 3px;
+      font-size: .8rem;
+      #logo {
+        width: 100px;
+        filter: none;
+      }
+    }
+  }
+  #top-social-links {
+    width: 15%;
+    float: right;
+    margin-right: 4%;
+    margin-top: 1%;
+    color: $primaryColor;
+    i {
+      font-size: 1.1rem;
+    }
+  }
+}
